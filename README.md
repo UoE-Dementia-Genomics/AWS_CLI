@@ -26,3 +26,6 @@ bash aws.upload.sh aws.args
 `
 
 The `Source` variable can be the full path of a single file or a directory. If you set the `Source` variable to a directory, all files in that directory will be copied to `Destination`.
+
+You can find some other useful scripts in `Other-Scripts` folder to download from a bucket using `boto3` in python and `paws` in R.
+
