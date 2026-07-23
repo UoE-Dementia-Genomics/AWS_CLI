@@ -96,7 +96,8 @@ aws_upload() {
     fi
 }
 
-##################################################################################################################
+`
+`
 aws_download() {
     if [ "$#" -ne 3 ]; then
         echo "Error: Incorrect number of arguments."
@@ -172,7 +173,8 @@ aws_download() {
         return 1
     fi
 }
-#################################################################################################################
+`
+`
 aws_remove() {
     # 1. Validate that exactly 2 arguments were provided
     if [ "$#" -ne 2 ]; then
