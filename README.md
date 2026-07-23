@@ -29,6 +29,8 @@ The `Source` variable can be the full path of a single file or a directory. If y
 
 You can find some other useful scripts in `Other-Scripts` folder to download from a bucket using `boto3` in python and `paws` in R.
 
+## Bash functions
+
 The following bash functions can also be added to the `.bashrc` as an alternative way to use AWS CLI. 
 
 ```bash
