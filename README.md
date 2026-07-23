@@ -31,7 +31,7 @@ You can find some other useful scripts in `Other-Scripts` folder to download fro
 
 The following bash functions can also be added to the `.bashrc` as an alternative way to use AWS CLI. 
 
-`
+```bash
 aws_upload() {
     # 1. Validate that exactly 3 arguments were provided
     if [ "$#" -ne 3 ]; then
@@ -96,8 +96,8 @@ aws_upload() {
     fi
 }
 
-`
-`
+```
+```bash
 aws_download() {
     if [ "$#" -ne 3 ]; then
         echo "Error: Incorrect number of arguments."
@@ -173,8 +173,8 @@ aws_download() {
         return 1
     fi
 }
-`
-`
+```
+```bash
 aws_remove() {
     # 1. Validate that exactly 2 arguments were provided
     if [ "$#" -ne 2 ]; then
@@ -260,4 +260,4 @@ aws_remove() {
 }
 
 
-`
+```
